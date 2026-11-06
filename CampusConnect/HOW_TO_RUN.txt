@@ -1,0 +1,58 @@
+========================================================================
+🎓 CAMPUSCONNECT - STUDENT MANAGEMENT PORTAL
+========================================================================
+
+Thank you for checking out CampusConnect! Follow the quick steps below to
+run the application on your computer.
+
+------------------------------------------------------------------------
+PREREQUISITES:
+------------------------------------------------------------------------
+• Node.js (version 18 or higher):
+  If you don't have Node.js installed, download it from https://nodejs.org/
+
+------------------------------------------------------------------------
+OPTION A: QUICK 1-CLICK LAUNCH (WINDOWS)
+------------------------------------------------------------------------
+1. Double-click "setup.bat"
+   (Installs the required backend and frontend packages. You only need to do this once!)
+
+2. Double-click "start.bat"
+   (Launches the backend on http://localhost:5000 and the frontend on http://localhost:5173,
+    and automatically opens your browser!)
+
+------------------------------------------------------------------------
+OPTION B: COMMAND LINE LAUNCH (WINDOWS / MAC / LINUX)
+------------------------------------------------------------------------
+Step 1: Install dependencies
+   npm run install:all
+
+Step 2: Start Backend Server (in a terminal)
+   cd backend
+   npm start
+   -> Running on http://localhost:5000
+
+Step 3: Start Frontend Server (in a second terminal)
+   cd frontend
+   npm run dev
+   -> Running on http://localhost:5173
+
+------------------------------------------------------------------------
+DEMO ACCOUNTS (PRE-CONFIGURED & PRE-SEEDED)
+------------------------------------------------------------------------
+Role          Email                            Password
+Administrator admin@campusconnect.edu          Admin@12345
+Student       rahul.sharma@campusconnect.edu   Student@12345
+Student       priya.patel@campusconnect.edu    Student@12345
+Student       aman.verma@campusconnect.edu     Student@12345
+
+💡 TIP: You can also click the "Admin Login" and "Student Login" one-click test
+buttons directly on the login screen to sign in instantly without typing!
+
+------------------------------------------------------------------------
+DATABASE NOTE:
+------------------------------------------------------------------------
+The portal includes a high-performance built-in in-memory database engine
+with pre-seeded student records, analytics, and attendance history. It runs
+instantly without needing to install or configure MongoDB locally!
+========================================================================
